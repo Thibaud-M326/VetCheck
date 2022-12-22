@@ -99,6 +99,6 @@ function fn_transitionRoundOff() {
 
 
 function fn_backToCustomerDetail() {
-    window.location.href = "../2 CustomerDetail/CustomerDetail.html";
+    window.location.href = "../html/CustomerDetail.html";
 
 }
