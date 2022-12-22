@@ -17,6 +17,6 @@ for(let i = 0; i < petDogCatBox.length; i++) {
 }
 
 function goToAnimalDetail() {
-    window.location.href="../3 Animal Detail/AnimalDetail.php";
+    window.location.href="../php/AnimalDetail.php";
 
 }

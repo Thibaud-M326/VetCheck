@@ -75,6 +75,6 @@ buttonLogin.addEventListener("click", fn_openVetLogin);
 
 function fn_openVetLogin(event) {
     event.preventDefault();
-    window.location.href="../../Vet Login/1Temp-Login/TempVetPage.html"
+    window.location.href="../html/VetPage.html"
 
 }

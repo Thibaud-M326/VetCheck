@@ -36,6 +36,5 @@ for (let i = 0; clientBox.length; i++) {
 
 
 function goToCustDetail() {
-    window.location.href="../2 CustomerDetail/CustomerDetail.html";
-    console.log("hello");
+    window.location.href="../html/CustomerDetail.html";
 }
