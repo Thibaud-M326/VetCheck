@@ -1,0 +1,187 @@
+html, body {
+    background-image: linear-gradient(315deg, #0FCD84, #0FCD84 31%, #0182B4 31%, #0182B4 41%, #FFCD51 41%, #FFCD51 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#column {
+    display: solid;
+    position: absolute;
+    z-index: -1;
+    color: rgba(255, 127, 80, 0);
+    background-color: rgba(255, 127, 80, 0.395);
+    height: 100%;
+    column-count: 12;
+    column-gap: 40px;
+    column-rule: 20px solid rgba(255, 255, 255, 0.379);
+}
+
+
+
+
+
+#how-displayed-vet-page {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#left-box-vet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#veto-profil-pic {
+    width: 20rem;
+    margin-top: 6rem;
+    margin-left: 9.6rem;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 6px;
+}
+
+#firstname-lastname-vet {
+    margin-top: 3rem;
+    margin-left: 9.6rem;
+    font-size: 1.2rem;
+    background-color: #F0F0EF;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    width: 300px;
+    height: 100px;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#back-button {
+    margin-top: 20rem;
+    margin-left: 9.6rem;
+    font-size: 1.2rem;
+    background-color: #D0E0CD;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 25px;
+    border-color: #F0F0EF;
+    width: 10rem;
+    height: 3.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+#right-box-vet {
+    position: relative;
+    width: 90.29rem;
+    height: 53rem;
+    background-color: #F0F0EF;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+#top-light-green {
+    position: absolute;
+    z-index: 0;
+    height: 8rem;
+    width: 90.29rem;
+    background-color: #D0E0CD;
+}
+
+#left-light-blue {
+    position: absolute;
+    z-index: 1;
+    height: 53rem;
+    width: 18rem;
+    background-color: #65C5BE;
+}
+
+#client-box {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 12.625rem;
+    height: 18.2rem;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    margin: 2.4rem;
+    cursor: pointer;
+    background-color: #F0F0EF;
+}
+
+#profil-pic-client {
+    width: 12rem;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#profil-client-text {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+#client-info {
+    position: absolute;
+    z-index: 2;
+    top: 22rem;
+    left: 3rem;
+}
+
+
+
+
+
+
+.pet-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 8rem;
+    left: 18rem;
+    width: 72.1rem;
+    height: 44.8rem;
+    overflow-y: scroll;
+}
+
+.pet-dog-cat-box {
+    border: 5px solid #D9D9D9;
+    border-radius: 20px;
+    width: 12.6rem;
+    height: 16.1rem;
+    margin: 5rem 5rem;
+    cursor: pointer;
+}
+
+.icon-dog-cat {
+    width: 12rem;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.dog-cat-text {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}

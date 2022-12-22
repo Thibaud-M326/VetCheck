@@ -1,0 +1,164 @@
+html, body {
+    background-image: linear-gradient(315deg, #0FCD84, #0FCD84 31%, #0182B4 31%, #0182B4 41%, #FFCD51 41%, #FFCD51 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#column {
+    display: solid;
+    position: absolute;
+    z-index: -1;
+    color: rgba(255, 127, 80, 0);
+    background-color: rgba(255, 127, 80, 0.395);
+    height: 100%;
+    column-count: 12;
+    column-gap: 40px;
+    column-rule: 20px solid rgba(255, 255, 255, 0.379);
+}
+
+
+
+
+
+#how-displayed-vet-page {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#left-box-vet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#veto-profil-pic {
+    width: 20rem;
+    margin-top: 6rem;
+    margin-left: 9.6rem;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 6px;
+}
+
+#firstname-lastname-vet {
+    margin-top: 3rem;
+    margin-left: 9.6rem;
+    font-size: 1.2rem;
+    background-color: #F0F0EF;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    width: 300px;
+    height: 100px;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+#right-box-vet {
+    width: 90.29rem;
+    height: 53rem;
+    background-color: #F0F0EF;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+#appointment-customer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#appointment-text {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+#customer-atext {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    color: #797C78;
+}
+
+#side-appointment {
+    display: flex;
+    flex-direction: column;
+    height: 44rem;
+    overflow-y: scroll;
+}
+
+.rendez-vous-title {
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.rendez-vous {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 75rem;
+    background-color: #D9D9D9;
+}
+
+
+
+
+
+#side-customer {
+    display: none;
+    justify-content: space-around;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    height: 44rem;
+}
+
+.client-box {
+    display: flex;
+    flex-direction: column;
+    width: 15.625rem;
+    height: 22rem;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    margin: 2.5rem;
+    cursor: pointer;
+}
+
+.profil-pic-client {
+    width: 15rem;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.profil-client-text {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 5px;
+}

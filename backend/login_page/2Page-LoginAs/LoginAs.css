@@ -1,0 +1,277 @@
+html, body {
+    background-image: linear-gradient(315deg, #0FCD84, #0FCD84 31%, #0182B4 31%, #0182B4 41%, #FFCD51 41%, #FFCD51 100%);
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#column {
+    display: solid;
+    position: absolute;
+    z-index: -1;
+    color: rgba(255, 127, 80, 0);
+    background-color: rgba(255, 127, 80, 0.242);
+    height: 100%;
+    column-count: 12;
+    column-gap: 40px;
+    column-rule: 20px solid rgba(255, 255, 255, 0.196);
+}
+
+
+
+
+/* display: flex affiche la page login */
+/* display: none affiche la page vet */
+#how-displayed {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+#design {
+    background-color: rgba(0, 255, 255, 0);
+    z-index: 0;
+    height: 100%;
+    width: 50%;
+}
+
+#cat-yellow {
+    position: absolute;
+    z-index: 0;
+    width: 29rem;
+    top: 18rem;
+    left: 5rem;
+    box-shadow: 0px 5px 13px -9px black;
+}
+
+#dog-purple {
+    position: absolute;
+    z-index: 1;
+    width: 17rem;
+    top: 23rem;
+    left: 22rem;
+    box-shadow: 0px 5px 13px -9px black;
+}
+
+#dog-blue {
+    position: absolute;
+    z-index: 2;
+    width: 18rem;
+    top: 15rem;
+    left: 36rem;
+    box-shadow: 0px 5px 13px -9px black;
+}
+
+#logo-vetcheck {
+    position: absolute;
+    left: 2.5rem;
+}
+
+
+
+
+
+#div-form {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+#login-as {
+    background-color: #F0F0EF;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 10%;
+    border-color: #D9D9D9;
+    position: absolute;
+    top: 15rem;
+    left: 70rem;
+    width: 30rem;
+    height: 30rem;
+}
+
+#div-display-login-as {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#login-as-text {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 120px;
+    font-family: 'Inter', sans-serif;
+}
+
+.div-inside-form {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#customer-text {
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#radio-customer {
+    margin-left: 12.8rem;
+    margin-bottom: 0.7rem;
+    width: 25px;
+    height: 25px;
+}
+
+#vet-text {
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#radio-vet {
+    margin-left: 19rem; 
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0.7rem;
+}
+
+#link-dont-have-account {
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#button-continue {
+    font-size: 1rem;
+    margin-left: 6rem;
+    padding: 1rem;
+    background-color: #d9d9d9;
+    border: none;
+    border-color: #D9D9D9;
+    border-radius: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+#div-display-login {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position:absolute;
+    z-index: 0;
+}
+
+#login-text {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 120px;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+}
+
+#sign-in-text {
+    font-size: 2.5rem;
+    margin-left: 9rem;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    color: #797C78;
+}
+
+#mail {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 380px;
+    height: 50px;
+}
+
+#password {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 380px;
+    height: 50px;
+}
+
+#back {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+#button-login {
+    font-size: 1.3rem;
+    margin-left: 16rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #d9d9d9;
+    border: none;
+    border-color: #D9D9D9;
+    border-radius: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+#div-display-sign-in {
+    flex-direction: column;
+    justify-content: space-around;
+    position:absolute;
+    z-index: -1;
+}
+
+#login-text-2 {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    color: #797C78;
+}
+
+#sign-in-text-2 {
+    font-size: 2.5rem;
+    margin-left: 9rem;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    color: #797C78;
+}
+
+.div-inside-form-sign {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input-sign {
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 380px;
+}
+
+#button-sign-in {
+    font-size: 1rem;
+    margin-left: 20rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #d9d9d9;
+    border: none;
+    border-color: #D9D9D9;
+    border-radius: 2rem;
+    font-family: 'Inter', sans-serif;
+}
